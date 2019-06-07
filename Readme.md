@@ -36,3 +36,5 @@ You could import the IPs through a file as well using the Browse for file button
 5. In univerall failures .csv you can find the devices that the programm couldn't login at all
 
 It can be run on windows, linux, mac 
+
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/george-panou/Cisco-IOS-Parallel-CLI)
