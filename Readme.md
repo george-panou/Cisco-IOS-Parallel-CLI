@@ -52,7 +52,7 @@ The version of python used is python 3, it's not backwards compatible with pytho
 ### Accessing the Results
 Here are some sample results after performing a use case wich covers a SSH successful connection, a failed telnet connection and a non existing IP:
 
-The use case senario:<br>
+The use case senario includes one SSH enabled device one only accessible via Telnet and one non-existent:<br>
 ![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/mainGUI2.png)
 
 The created folder's structure after the application completed the task:<br>
