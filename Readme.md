@@ -1,9 +1,16 @@
-<p>This is a programm to run IOS CLI commands simultaneously on multiple cisco devices. It offers a Graphical Interface to run the commands displaying the output live and reporting it in .txt and scv format.
+# Cisco IOS Parallel CLI
+
+<p>This is an application to run IOS CLI commands simultaneously on multiple cisco devices. It offers a Graphical Interface to run the commands displaying the output live and reporting it in .txt and scv format.
 <p>It uses multithreading to speed up the procedure, opening one parallel SSH connection per host IP 
 <p>Add the host IPs on the left panel and the set of commands to be executed on the right panel.<p>The list needs to be consisted of one IP per line 
 <p>You can use the formating function to remove illegal characters from the IP list, it will also delete illegal IPs and remove Duplicate IPs.<p>You can check if the IP list contains illegal IPs using the check IPs Button<p> 
 <p>With format you could for example get rid of characters:
 
+## Graphical Interface
+
+![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/Cisco-OS-Parallel-CLI-GUI-screen.png)
+
+## Formating feature
 if you format this:
 
 - 192.168.1.1-basement
@@ -15,9 +22,12 @@ you would get this:
 
 <p>
 
+
+
 You could import the IPs through a file as well using the Browse for file button, it shares the functionality with copy pasting the data.
 
-<b><u>Prerequiites</u></b>:
+## Installation 
+While installation is not needed you need to install some dependencies:
 
 1.  Install python3 :  https://www.python.org/ftp/python/3.7.2/python-3.7.2-webinstall.exe
 2.  During installation check add to path
@@ -28,7 +38,9 @@ You could import the IPs through a file as well using the Browse for file button
     -	pip install -U wxPython
     -   pip install requests 
     
-<b><u>How to run</u></b>: 
+
+    
+## Usage
 1. cd into directory of ciscoCLI.py και and run: python ciscoCLI.py
 2. The programm will create a directory with a timestamp including up to four csv <p>files with results an a folder with .txt files with detailed output of devices on <p>which it logged in successfully 
 3. Place one IP per line and one command per line in the interface
@@ -36,5 +48,19 @@ You could import the IPs through a file as well using the Browse for file button
 5. In univerall failures .csv you can find the devices that the programm couldn't login at all
 
 It can be run on windows, linux, mac 
+
+## Known Issues
+
+The application will fail to ignore some certificate types causing the connection to the network device to close
+
+
+## Getting Help 
+
+If you face any issues please create an issue in the github built-in issue tracker
+
+
+## Contributing
+
+Please contact me if you want to contribute to this project and I will give you further instructions.
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/george-panou/Cisco-IOS-Parallel-CLI)
