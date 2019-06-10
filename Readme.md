@@ -45,7 +45,7 @@ While installation is not needed you need to install some dependencies:
 2. Place one IP per line and one command per line in the interface
 3. Click the Run Commads Button
 4. Live output will be displayed in the main text area - this will be asynchronous with one thread corresponding to one device 
-5. The software will attempt to login using ssh and telnet if ssh fails, it will also<p> retry at each of these two steps with alternate credentials only if they are <p>actually supplied
+5. The software will attempt to login using ssh and telnet if ssh fails, it will also retry at each of these two steps with alternate credentials only if they are actually supplied
 6. The application will create a directory with a timestamp as its name including up to four csv files with the command's results 
     it will also crete another folder with .txt files, with detailed output - one file for each device 
 7. In universal failures .csv you can find the devices that the application could not login at all or failed to execute the commands at some point
