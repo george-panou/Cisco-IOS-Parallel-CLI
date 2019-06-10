@@ -42,7 +42,8 @@ While installation is not needed you need to install some dependencies:
     
 ## Usage
 1. cd into directory of ciscoCLI.py και and run: python ciscoCLI.py
-2. The programm will create a directory with a timestamp including up to four csv <p>files with results an a folder with .txt files with detailed output of devices on <p>which it logged in successfully 
+2. The programm will create a directory with a timestamp including up to four csv <p>files with output results 
+    it will also crete another folder with .txt files with detailed output regarding each device's out put 
 3. Place one IP per line and one command per line in the interface
 4. The software will attempt to login using ssh and telnet if ssh fails, it will also<p> retry at each of these two steps with alternate credentials only if they are <p>actually supplied
 5. In univerall failures .csv you can find the devices that the programm couldn't login at all
