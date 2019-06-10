@@ -10,7 +10,7 @@
 
 ![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/Cisco-OS-Parallel-CLI-GUI-screen.png)
 
-## Formating feature
+### Formating feature
 if you format this:
 
 - 192.168.1.1-basement
@@ -21,10 +21,8 @@ you would get this:
 - 192.168.1.2
 
 <p>
-
-
-
 You could import the IPs through a file as well using the Browse for file button, it shares the functionality with copy pasting the data.
+
 
 ## Installation 
 While installation is not needed you need to install some dependencies:
@@ -50,6 +48,24 @@ The version of python used is python 3, it's not backwards compatible with pytho
 6. The application will create a directory with a timestamp as its name including up to four csv files with the command's results 
     it will also crete another folder with .txt files, with detailed output - one file for each device 
 7. In universal failures .csv you can find the devices that the application could not login at all or failed to execute the commands at some point
+
+### Accessing the Results
+Here are some sample results after performing a use case wich covers a SSH successful connection, a failed telnet connection and a non existing IP:
+
+The use case senario:
+![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/mainGUI.png)
+
+The created folder's structure after the application completed the task:
+![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/results-folder-structure.png)
+
+Here you can see the output of the SSH connections that were successfull:
+![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/CSV-Output.png)
+
+The .txt version of the output:
+![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/results-txt-sample.png)
+
+The reported failures:
+![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/AllFailures-sample.png)
 
 
 It can be run on windows, linux, mac 
