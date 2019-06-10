@@ -13,10 +13,14 @@ global commandType
 from multiprocessing.pool import ThreadPool
 logging=True
 
-aboutText = """<p>This is a programm to run ios commands simultaneously on multiple cisco devices.<p>It uses multithreading to speed up the procedure, opening one parallel SSH connection per host IP 
-<p>Add the host IPs on the left panel and the set of commands to be executed on the right panel.<p>The list needs to be consisted of one IP per line 
-<p>You can use the formating function to remove illegal characters from the IP list, it will also delete illegal IPs and remove Duplicate IPs.<p>You can check if the IP list contains illegal IPs using the check IPs Button<p> This instance is
-running on version %(wxpy)s of <b>wxPython</b> and %(python)s of <b>Python</b> and uses paramiko,netmiko,telnetlib and wx libraries for the user interface."""
+aboutText = """<p>This is an application to run IOS CLI commands simultaneously on multiple cisco devices. It offers a Graphical Interface to run the commands displaying the output live and reporting it in .txt and scv format.
+<p>It uses multithreading to speed up the procedure, opening one parallel SSH connection per device IP 
+<p>Add the device IPs on the left panel and the set of commands to be executed on the right panel.<p>The list needs to be consisted of one IP per line 
+<p>You can use the formating function to remove illegal characters from the IP list, it will also delete illegal IPs and remove Duplicate IPs.<p>You can check if the IP list contains illegal IPs using the check IPs Button<p> 
+<p>With format you could for example get rid of characters:<p> This instance is
+running on version %(wxpy)s of <b>wxPython</b> and %(python)s of <b>Python</b> and uses paramiko,netmiko,telnetlib and wx libraries for the user interface. It was developed for Algosystems S.A. <p> It is maintained in GitHub : 
+<a href="https://github.com/george-panou/Cisco-IOS-Parallel-CLI">Cisco-IOS-Parallel-CLI</a>
+"""
 
 def readHostsFromFile(filename):
    #hosts = [line.rstrip('\r\n') for line in open(filename)]
