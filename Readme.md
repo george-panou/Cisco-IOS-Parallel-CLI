@@ -52,19 +52,19 @@ The version of python used is python 3, it's not backwards compatible with pytho
 ### Accessing the Results
 Here are some sample results after performing a use case wich covers a SSH successful connection, a failed telnet connection and a non existing IP:
 
-The use case senario:
-![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/mainGUI.png)
+The use case senario:<br>
+![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/mainGUI2.png)
 
-The created folder's structure after the application completed the task:
+The created folder's structure after the application completed the task:<br>
 ![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/results-folder-structure.png)
 
-Here you can see the output of the SSH connections that were successfull:
+Here you can see the output of the SSH connections that were successfull:<br>
 ![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/CSV-Output.png)
 
-The .txt version of the output:
+The .txt version of the output:<br>
 ![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/results-txt-sample.png)
 
-The reported failures:
+The reported failures:<br>
 ![N|Image](https://github.com/george-panou/Cisco-IOS-Parallel-CLI/blob/master/images/AllFailures-sample.png)
 
 
