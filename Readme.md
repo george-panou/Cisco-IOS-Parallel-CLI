@@ -52,7 +52,8 @@ It can be run on windows, linux, mac
 
 ## Known Issues
 
-The application will fail to ignore some certificate types causing the connection to the network device to close
+The application will fail to ignore some self signed certificates, causing the connection to the network device to close.
+We are working on better ideintifying the issues root cause.
 
 
 ## Getting Help 
