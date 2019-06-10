@@ -42,18 +42,21 @@ While installation is not needed you need to install some dependencies:
     
 ## Usage
 1. cd into directory of ciscoCLI.py και and run: python ciscoCLI.py
-2. The programm will create a directory with a timestamp including up to four csv <p>files with output results 
-    it will also crete another folder with .txt files with detailed output regarding each device's out put 
-3. Place one IP per line and one command per line in the interface
-4. The software will attempt to login using ssh and telnet if ssh fails, it will also<p> retry at each of these two steps with alternate credentials only if they are <p>actually supplied
-5. In univerall failures .csv you can find the devices that the programm couldn't login at all
+2. Place one IP per line and one command per line in the interface
+3. Click the Run Commads Button
+4. Live output will be displayed in the main text area - this will be asynchronous with one thread corresponding to one device 
+5. The software will attempt to login using ssh and telnet if ssh fails, it will also<p> retry at each of these two steps with alternate credentials only if they are <p>actually supplied
+6. The application will create a directory with a timestamp as its name including up to four csv files with the command's results 
+    it will also crete another folder with .txt files, with detailed output - one file for each device 
+7. In universal failures .csv you can find the devices that the application could not login at all or failed to execute the commands at some point
+
 
 It can be run on windows, linux, mac 
 
 ## Known Issues
 
 The application will fail to ignore some self signed certificates, causing the connection to the network device to close.
-We are working on better ideintifying the issues root cause.
+We are working on better identifying the issue's root cause.
 
 
 ## Getting Help 
