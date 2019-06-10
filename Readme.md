@@ -28,6 +28,7 @@ You could import the IPs through a file as well using the Browse for file button
 
 ## Installation 
 While installation is not needed you need to install some dependencies:
+The version of python used is python 3, it's not backwards compatible with python 2
 
 1.  Install python3 :  https://www.python.org/ftp/python/3.7.2/python-3.7.2-webinstall.exe
 2.  During installation check add to path
@@ -41,8 +42,8 @@ While installation is not needed you need to install some dependencies:
 
     
 ## Usage
-1. cd into directory of ciscoCLI.py και and run: python ciscoCLI.py
-2. Place one IP per line and one command per line in the interface
+1. cd into the directory that ciscoCLI.py is located και and run: python ciscoCLI.py alternatively you can double click the provided run.bat file if you are on windows
+2. Place one IP per line and one command per line in the IP List and Commands List respectively
 3. Click the Run Commads Button
 4. Live output will be displayed in the main text area - this will be asynchronous with one thread corresponding to one device 
 5. The software will attempt to login using ssh and telnet if ssh fails, it will also retry at each of these two steps with alternate credentials only if they are actually supplied
