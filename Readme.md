@@ -1,8 +1,8 @@
 # Cisco IOS Parallel CLI
 
 <p>This is an application to run IOS CLI commands simultaneously on multiple cisco devices. It offers a Graphical Interface to run the commands displaying the output live and reporting it in .txt and scv format.
-<p>It uses multithreading to speed up the procedure, opening one parallel SSH connection per host IP 
-<p>Add the host IPs on the left panel and the set of commands to be executed on the right panel.<p>The list needs to be consisted of one IP per line 
+<p>It uses multithreading to speed up the procedure, opening one parallel SSH connection per device IP 
+<p>Add the device IPs on the left panel and the set of commands to be executed on the right panel.<p>The list needs to be consisted of one IP per line 
 <p>You can use the formating function to remove illegal characters from the IP list, it will also delete illegal IPs and remove Duplicate IPs.<p>You can check if the IP list contains illegal IPs using the check IPs Button<p> 
 <p>With format you could for example get rid of characters:
 
@@ -68,5 +68,7 @@ If you face any issues please create an issue in the github built-in issue track
 ## Contributing
 
 Please contact me if you want to contribute to this project and I will give you further instructions.
+<br>
+<br>
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/george-panou/Cisco-IOS-Parallel-CLI)
