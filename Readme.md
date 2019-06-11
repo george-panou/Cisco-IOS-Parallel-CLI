@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/george-panou/Cisco-IOS-Parallel-CLI)
+
 # Cisco IOS Parallel CLI
 
 <p>This is an application to run IOS CLI commands simultaneously on multiple cisco devices. It offers a Graphical Interface to run the commands displaying the output live and reporting it in .txt and scv format.
@@ -87,4 +89,4 @@ Please contact me if you want to contribute to this project and I will give you 
 <br>
 <br>
 
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/george-panou/Cisco-IOS-Parallel-CLI)
+
