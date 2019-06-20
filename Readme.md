@@ -36,6 +36,7 @@ The version of python used is python 3, it's not backwards compatible with pytho
 
     -	pip install pathlib
     -	pip install netmiko
+    -	pip install paramiko
     -	pip install -U wxPython
     -   pip install requests 
     
